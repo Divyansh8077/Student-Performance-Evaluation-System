@@ -1,2 +1,3 @@
 # Student-Performance-Evaluation-System
-Smart academic platform using attendance, assessments, viva, and exams to evaluate student performance. Features Quick Sort for ranking, Floyd-Warshall for learning paths, and ML models for prediction. Built with Python, React, Node.js, and MySQL for real-time insights.
+An AI-powered educational analytics platform that automates student performance evaluation through intelligent ranking, personalized learning paths, real-time predictions, and course recommendations. It leverages machine learning, graph algorithms, and a modular design to deliver accurate, unbiased, and holistic insights.
+
