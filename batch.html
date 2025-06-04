@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch Evaluation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="batch.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Batch Evaluation</h1>
+        <div id="studentList">
+            <h2>Students in Selected Batch</h2>
+            <ul id="students"></ul>
+        </div>
+    </div>
+    <div id="evaluationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Evaluate <span id="studentName"></span></h2>
+            <p id="evaluationResult"></p> <!-- Display the evaluation result here -->
+            <button onclick="closeModal()">Close</button> <!-- Button to close the modal -->
+        </div>
+    </div>
+</body>
+</html>

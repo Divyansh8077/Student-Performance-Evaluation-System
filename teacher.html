@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="teacher.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Teacher Dashboard</h1>
+        <form id="teacherForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="e.g., Divyansh.100563@ddn.upes.ac.in" required>
+            <label for="evaluationType">Select Evaluation Type:</label>
+            <select id="evaluationType">
+                <option value="behavior">Evaluate by Student Behavior</option>
+            </select>
+            <label for="batch">Select Batch:</label>
+            <select id="batch">
+                <option value="batch1">Batch 1</option>
+                <option value="batch2">Batch 2</option>
+                <option value="batch3">Batch 3</option>
+            </select>
+            <button type="submit">Check Student Evaluation</button>
+        </form>
+    </div>
+</body>
+</html>
